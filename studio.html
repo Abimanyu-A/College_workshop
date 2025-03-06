@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli Fest 2023 - Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <nav class="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold">Studio Ghibli</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="hover:text-gray-300">Films</a>
+                    <a href="#" class="hover:text-gray-300">Characters</a>
+        <a href="#" class="hover:text-gray-300">News</a>
+        <a href="./studio.html" class="hover:text-gray-300">Studio</a>
+                    <a href="#" class="hover:text-gray-300">About</a>
+                    <a href="#" class="hover:text-gray-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="relative h-screen bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('https://images.unsplash.com/photo-1601758003122-c14dd6507671?q=80&w=1600&h=900&fit=crop');">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
+        <div class="relative z-10 px-6">
+            <h1 class="text-5xl font-extrabold text-green-400 drop-shadow-lg">About Studio Ghibli</h1>
+            <p class="max-w-2xl mt-4 text-lg opacity-90">Discover the magic behind the legendary animation studio that has inspired generations worldwide.</p>
+        </div>
+    </header>
+    
+    <section id="legacy" class="p-12 text-center bg-gray-800">
+        <h2 class="text-4xl font-bold text-green-400 mb-8">Our Legacy</h2>
+        <p class="max-w-4xl mx-auto text-lg">Founded in 1985 by visionary filmmakers Hayao Miyazaki and Isao Takahata, Studio Ghibli has crafted timeless classics such as "Spirited Away," "My Neighbor Totoro," and "Princess Mononoke." Known for breathtaking animation, deep storytelling, and emotional depth, the studio remains a symbol of artistic excellence.</p>
+        <img src="https://images.unsplash.com/photo-1599421934694-685dc843c792?q=800&w=500" class="rounded-lg shadow-lg mt-6 mx-auto">
+    </section>
+    
+    <section id="team" class="p-12 text-center bg-gray-900">
+        <h2 class="text-4xl font-bold text-green-400 mb-8">Meet the Team</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div class="text-center">
+                <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/miyazakibig.png" class="rounded-full w-60  mx-auto">
+                <p class="mt-4 text-lg">Hayao Miyazaki</p>
+                <p class="text-sm opacity-75">Co-Founder & Director</p>
+            </div>
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=200&w=200" class="rounded-full w-60 mx-auto">
+                <p class="mt-4 text-lg">Isao Takahata</p>
+                <p class="text-sm opacity-75">Co-Founder & Director</p>
+            </div>
+            <div class="text-center">
+                <img src="https://media.themoviedb.org/t/p/w600_and_h900_bestv2/h8KzdSl5kIHgXputSBhxDZ1CA1g.jpg" class="rounded-full w-60 mx-auto">
+                <p class="mt-4 text-lg">Toshio Suzuki</p>
+                <p class="text-sm opacity-75">Producer</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacts" class="p-12 text-center bg-gray-800">
+        <h2 class="text-4xl font-bold text-green-400 mb-8">Contact Us</h2>
+        <p class="text-lg">For inquiries, reach us at <a href="mailto:info@studioghibli.com" class="text-green-400">info@studioghibli.com</a></p>
+    </section>
+</body>
+</html>
